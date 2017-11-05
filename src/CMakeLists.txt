@@ -1,5 +1,9 @@
 add_definitions(-DSTATICLIB)
 
+export AR=gcc-ar-4.9
+export NM=gcc-nm-4.9
+export RANLIB=gcc-ranlib-4.9
+
 file(GLOB_RECURSE BlockchainExplorer BlockchainExplorer/*)
 file(GLOB_RECURSE Common Common/*)
 file(GLOB_RECURSE ConnectivityTool ConnectivityTool/*)
